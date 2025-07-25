@@ -1,11 +1,11 @@
-# 🎥 Anime Streaming Website
+#  Anime Streaming Website
 
 A basic anime streaming website built using **Django**, **PostgresSql**, **HTML**, **CSS**, and **JavaScript**.  
 This app allows users to browse anime, view episode lists, and stream episodes (if integrated with a media player).
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Home Page listing all anime
 - Individual Anime Detail Page
@@ -16,7 +16,7 @@ This app allows users to browse anime, view episode lists, and stream episodes (
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Backend: Django (Python)
 - Frontend: HTML, CSS, JavaScript
@@ -25,7 +25,7 @@ This app allows users to browse anime, view episode lists, and stream episodes (
 
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 anime-streaming/
 │
@@ -45,15 +45,9 @@ anime-streaming/
 ├── media/ # Media uploads
 ├── requirements.txt
 ├── manage.py
-└── Procfile # For Railway deployment
 
-yaml
-Copy
-Edit
 
----
-
-## 🧪 Setup Instructions (Local)
+##  Setup Instructions (Local)
 
 ### 1. **Clone the repository**
    ```bash
@@ -75,20 +69,6 @@ python manage.py migrate
 ### Run the server
 
 python manage.py runserver
-###  Railway Deployment
-Create a Railway account
-
-Connect your GitHub repo
-
-Add required environment variables (SECRET_KEY, DEBUG, ALLOWED_HOSTS)
-
-### Set build command:
 
 
-pip install -r requirements.txt
-### Set start command:
-
-
-gunicorn anime_stream.wsgi
-Done! Your app will be live 🚀
 
